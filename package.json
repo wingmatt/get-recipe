@@ -1,0 +1,12 @@
+{
+  "name": "get-recipe",
+  "source": "src/get-recipe.js",
+  "main": "dist/get-recipe.js",
+  "exports": "./dist/get-recipe.modern.js",
+  "module": "dist/get-recipe.module.js",
+  "unpkg": "dist/get-recipe.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  }
+}
