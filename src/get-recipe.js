@@ -1,2 +1,7 @@
-import axios from 'axios';
+const axios = require('axios');
 
+const getRecipe = (url) => {
+  return 'yes';
+}
+
+module.exports = getRecipe
