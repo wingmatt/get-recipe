@@ -15,7 +15,7 @@
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
-    "test": "jest"
+    "test": "jest --watch"
   },
   "dependencies": {
     "axios": "^0.21.1"
