@@ -1,5 +1,12 @@
 {
   "name": "get-recipe",
+  "version": "0.0.1",
+  "description": "Input URL, output recipe JSON",
+  "repository": {
+    "type": "git",
+    "url": "TBD"
+  },
+  "license": "MIT",
   "source": "src/get-recipe.js",
   "main": "dist/get-recipe.js",
   "exports": "./dist/get-recipe.modern.js",
@@ -8,5 +15,8 @@
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
   }
 }
