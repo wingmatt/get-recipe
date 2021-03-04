@@ -1,5 +1,5 @@
 const getRecipe = require('../get-recipe');
 
-test('returns something', () => {
-  expect(getRecipe("https://example.com/recipe").toBeDefined())
+test('Returns something', () => {
+  expect(getRecipe("https://example.com/recipe")).toBeDefined()
 })
